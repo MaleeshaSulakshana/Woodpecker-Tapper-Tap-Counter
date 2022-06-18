@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "352476367645",
+    "project_id": "woodpecker-tapper",
+    "storage_bucket": "woodpecker-tapper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352476367645:android:b9be7d0de8855649fbeff4",
+        "android_client_info": {
+          "package_name": "com.tapper.woodpecker_tapper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352476367645-tpom07ao2ihakaii050v2vibvudsnqrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsGY0Sr1YEgSTlFrORphZGHPt4GzXOaH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352476367645-tpom07ao2ihakaii050v2vibvudsnqrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/activity_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Welcome"
+            android:textSize="35dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/gray1"
+            android:fontFamily="@font/woodpecker"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="To"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@color/gray1"
+            android:fontFamily="@font/woodpecker"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="5dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/woodpecker"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="woodpecker"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@color/gray1"
+            android:fontFamily="@font/woodpecker"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Tapper"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@color/gray1"
+            android:fontFamily="@font/woodpecker"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Developed bY Maleesha"
+        android:textColor="@color/gray1"
+        android:textStyle="bold"
+        android:fontFamily="@font/woodpecker"/>
+
+</RelativeLayout>
